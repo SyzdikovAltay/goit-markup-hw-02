@@ -7,8 +7,36 @@ body{
     font-family: 'Roboto';
 }
 header{
+    
+}
+/* Hero */
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2F303A;
+}
+.order-btn{
+    display: block;
+    justify-content: center;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color:#2196F3;
+}
+.order-btn:hover,
+.order-btn:focus{
+    background-color: #188CE8;
 }
 h1{ 
+    display: block;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -48,6 +76,9 @@ h1{
 .navlinksitem:focus{
     color: #2196F3;
 }
+.navlinksitem.current{
+    color: #2196F3;
+}
 .navlistcontacts{
     
 }
@@ -58,18 +89,7 @@ h1{
 .navlinkscont:focus{
     color:#2196F3;
 }
-.order-btn{
-    cursor: pointer;
-    width: 200px;
-    height: 50px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-}
+
 /*section 2*/
 .description-section2-h3{
     font-weight: 700;
@@ -97,6 +117,9 @@ h1{
     color: #212121;
 }
 /*section 4*/
+.section4{
+    background-color: #F5F4FA;
+}
 .section4-h2{
     font-weight: 700;
     font-size: 36px;
@@ -104,6 +127,7 @@ h1{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    
 }
 .section4-h3{
     font-weight: 500;
@@ -122,6 +146,9 @@ h1{
     color: #757575;
 }
 /*footer*/
+.footer{
+    background-color: #2F303A;
+}
 .footer-adress{
     font-weight: 400;
     font-size: 14px;
@@ -148,6 +175,7 @@ h1{
 
 /*Фильтр*/
 
+
 .filter{
     cursor: pointer;
     font-weight: 500;
@@ -160,11 +188,15 @@ h1{
     border: none;
 }
 .filter:hover,
-.filter:focus{
+.filter:focus {
     background-color: #2196F3;
     color: #F5F4FA;
-    
 }
+.filter.current{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
 /*Галерея*/
 .gallery-items{
     width: 370px;
