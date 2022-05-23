@@ -190,6 +190,7 @@ h1{
     letter-spacing: 0.03em;
     color: #212121;
     border: none;
+    background-color: #F5F4FA;
 }
 .filter:hover,
 .filter:focus {
@@ -200,6 +201,7 @@ h1{
     background-color: #2196F3;
     color: #FFFFFF;
 }
+.navlink
 
 /*Галерея*/
 .gallery-items{
