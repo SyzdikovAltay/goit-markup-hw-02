@@ -167,6 +167,9 @@ h1{
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.footer-map{
+    color: #FFFFFF;
+}
 .footer-adress:hover,
 .footer-adress:focus{
     color: #2196F3;
