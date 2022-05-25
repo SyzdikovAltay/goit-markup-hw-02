@@ -103,10 +103,11 @@ h1{
     color: #212121;
 }
 .description-section2-p{
-    font-weight: 400;
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: #757575;
 }
 /*section 3*/
